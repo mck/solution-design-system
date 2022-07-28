@@ -1,0 +1,27 @@
+{
+ "packages": {
+  "dir": "",
+  "menu": [
+   [
+    "TOKENS",
+    [
+     "color",
+     "tokens"
+    ]
+   ],
+   [
+    "COMPONENTS",
+    [
+     "button"
+    ]
+   ],
+   [
+    "INFRASTRUCTURE",
+    [
+     "doc-layout",
+     "sd-input"
+    ]
+   ]
+  ]
+ }
+}
