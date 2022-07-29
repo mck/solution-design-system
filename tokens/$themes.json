@@ -10,7 +10,9 @@
       "ws--websolution": "source",
       "ws--wireframe": "disabled",
       "core/core-colors": "source",
-      "core/core-utilities": "source"
+      "core/core-utilities": "source",
+      "core/core-base": "disabled",
+      "d_base": "disabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -25,7 +27,9 @@
       "ws--websolution": "source",
       "ws--wireframe": "disabled",
       "core/core-colors": "source",
-      "core/core-utilities": "source"
+      "core/core-utilities": "source",
+      "core/core-base": "disabled",
+      "d_base": "disabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -40,7 +44,9 @@
       "ws--websolution": "source",
       "ws--wireframe": "disabled",
       "core/core-colors": "source",
-      "core/core-utilities": "source"
+      "core/core-utilities": "source",
+      "core/core-base": "disabled",
+      "d_base": "disabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -55,7 +61,9 @@
       "ws--websolution": "source",
       "ws--wireframe": "disabled",
       "core/core-colors": "source",
-      "core/core-utilities": "source"
+      "core/core-utilities": "source",
+      "core/core-base": "disabled",
+      "d_base": "disabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -70,7 +78,9 @@
       "ws--websolution": "source",
       "ws--wireframe": "enabled",
       "core/core-colors": "source",
-      "core/core-utilities": "source"
+      "core/core-utilities": "source",
+      "core/core-base": "disabled",
+      "d_base": "disabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -85,7 +95,9 @@
       "ws--websolution": "enabled",
       "ws--wireframe": "disabled",
       "core/core-colors": "source",
-      "core/core-utilities": "source"
+      "core/core-utilities": "source",
+      "core/core-base": "disabled",
+      "d_base": "disabled"
     },
     "$figmaStyleReferences": {}
   }
