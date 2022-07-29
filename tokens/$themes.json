@@ -11,7 +11,6 @@
       "core/core-colors": "source",
       "core/core-utilities": "source",
       "core/core-base": "source",
-      "d_base": "disabled",
       "sas--billa-cz": "disabled"
     },
     "$figmaStyleReferences": {}
@@ -28,7 +27,6 @@
       "core/core-colors": "source",
       "core/core-utilities": "source",
       "core/core-base": "source",
-      "d_base": "disabled",
       "sas--billa-cz": "disabled"
     },
     "$figmaStyleReferences": {}
@@ -45,7 +43,6 @@
       "core/core-colors": "source",
       "core/core-utilities": "source",
       "core/core-base": "source",
-      "d_base": "disabled",
       "sas--billa-cz": "enabled"
     },
     "$figmaStyleReferences": {}
@@ -62,7 +59,6 @@
       "core/core-colors": "source",
       "core/core-utilities": "source",
       "core/core-base": "source",
-      "d_base": "disabled",
       "sas--billa-cz": "disabled"
     },
     "$figmaStyleReferences": {}
@@ -79,7 +75,6 @@
       "core/core-colors": "source",
       "core/core-utilities": "source",
       "core/core-base": "source",
-      "d_base": "disabled",
       "sas--billa-cz": "disabled"
     },
     "$figmaStyleReferences": {}
@@ -96,7 +91,6 @@
       "core/core-colors": "source",
       "core/core-utilities": "source",
       "core/core-base": "source",
-      "d_base": "disabled",
       "sas--billa-cz": "disabled"
     },
     "$figmaStyleReferences": {}
