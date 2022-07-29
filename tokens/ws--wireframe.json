@@ -1,0 +1,118 @@
+{
+  "primary": {
+    "value": "#33373A",
+    "type": "color"
+  },
+  "primary2": {
+    "value": "#33373A",
+    "type": "color"
+  },
+  "primaryText": {
+    "value": "#ffffff",
+    "type": "color"
+  },
+  "secondary": {
+    "value": "#33373A",
+    "type": "color"
+  },
+  "secondaryLight": {
+    "value": "rgba(51,55,58,0.05)",
+    "type": "color"
+  },
+  "accent": {
+    "value": "#9EA1A3",
+    "type": "color"
+  },
+  "price": {
+    "value": "#33373A",
+    "type": "color"
+  },
+  "discount": {
+    "value": "#9EA1A3",
+    "type": "color"
+  },
+  "backgroundLight": {
+    "value": "#F6F7F8",
+    "type": "color"
+  },
+  "base": {
+    "value": "#33373A",
+    "type": "color"
+  },
+  "base2": {
+    "value": "rgba(51,55,58,0.8)",
+    "type": "color"
+  },
+  "base3": {
+    "value": "rgba(51,55,58,0.6)",
+    "type": "color"
+  },
+  "form": {
+    "value": "rgba(51,55,58,0.45)",
+    "type": "color"
+  },
+  "background1": {
+    "value": "rgba(51,55,58,0.25)",
+    "type": "color"
+  },
+  "background2": {
+    "value": "rgba(51,55,58,0.1)",
+    "type": "color"
+  },
+  "background3": {
+    "value": "rgba(51,55,58,0.05)",
+    "type": "color"
+  },
+  "textInverted": {
+    "value": "#ffffff",
+    "type": "color"
+  },
+  "statusError": {
+    "value": "#BB1133",
+    "type": "color"
+  },
+  "statusWarning": {
+    "value": "#BB4400",
+    "type": "color"
+  },
+  "statusInfo": {
+    "value": "#0066BB",
+    "type": "color"
+  },
+  "statusSuccess": {
+    "value": "#227744",
+    "type": "color"
+  },
+  "joe": {
+    "value": "#96711F",
+    "type": "color"
+  },
+  "statusErrorLight": {
+    "value": "#fbf3f5",
+    "type": "color"
+  },
+  "statusWarningLight": {
+    "value": "#fbf6f3",
+    "type": "color"
+  },
+  "statusInfoLight": {
+    "value": "#f3f7fc",
+    "type": "color"
+  },
+  "statusSuccessLight": {
+    "value": "#f5f8f6",
+    "type": "color"
+  },
+  "font-family-base": {
+    "value": "Kalam",
+    "type": "fontFamilies"
+  },
+  "headings-font-family": {
+    "value": "Kalam",
+    "type": "fontFamilies"
+  },
+  "border-radius": {
+    "value": "8",
+    "type": "borderRadius"
+  }
+}

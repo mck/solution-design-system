@@ -1,0 +1,12 @@
+{
+  "ws": {
+    "placeholder": {
+      "date": {
+        "short": {
+          "value": "<<date.short>>",
+          "type": "other"
+        }
+      }
+    }
+  }
+}
