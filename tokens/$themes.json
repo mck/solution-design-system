@@ -1,76 +1,16 @@
 [
   {
-    "id": "9efacbe65ecf62038eedc7ffaf58bb219be929d9",
-    "name": "WebSolution",
-    "selectedTokenSets": {
-      "as--billa-cz": "disabled",
-      "global--utilities": "disabled",
-      "ws--billa-cz": "disabled",
-      "ws--development": "disabled",
-      "ws--penny-int": "disabled",
-      "ws--websolution": "source",
-      "ws--wireframe": "disabled",
-      "core/core-colors": "enabled"
-    },
-    "$figmaStyleReferences": {}
-  },
-  {
     "id": "a53da16dd5c3f0b4900a10dea989faae9b13801c",
     "name": "Billa CZ",
     "selectedTokenSets": {
       "as--billa-cz": "disabled",
-      "global--utilities": "disabled",
       "ws--billa-cz": "enabled",
       "ws--development": "disabled",
       "ws--penny-int": "disabled",
       "ws--websolution": "source",
       "ws--wireframe": "disabled",
-      "core/core-colors": "enabled"
-    },
-    "$figmaStyleReferences": {}
-  },
-  {
-    "id": "29f120399582b8dff354fd76496856d53bc79611",
-    "name": "Penny Int",
-    "selectedTokenSets": {
-      "as--billa-cz": "disabled",
-      "global--utilities": "disabled",
-      "ws--billa-cz": "disabled",
-      "ws--development": "disabled",
-      "ws--penny-int": "enabled",
-      "ws--websolution": "source",
-      "ws--wireframe": "disabled",
-      "core/core-colors": "enabled"
-    },
-    "$figmaStyleReferences": {}
-  },
-  {
-    "id": "eae4f6dda115feda8f67121d0438e2f35b7d2f61",
-    "name": "AppSolution",
-    "selectedTokenSets": {
-      "as--billa-cz": "enabled",
-      "global--utilities": "disabled",
-      "ws--billa-cz": "disabled",
-      "ws--development": "disabled",
-      "ws--penny-int": "disabled",
-      "ws--websolution": "source",
-      "ws--wireframe": "disabled",
-      "core/core-colors": "enabled"
-    },
-    "$figmaStyleReferences": {}
-  },
-  {
-    "id": "fdf6f4d27322f41f0b0c348b568c8e8f64f72ed4",
-    "name": "Wireframe",
-    "selectedTokenSets": {
-      "as--billa-cz": "disabled",
-      "global--utilities": "disabled",
-      "ws--billa-cz": "disabled",
-      "ws--development": "disabled",
-      "ws--penny-int": "disabled",
-      "ws--websolution": "source",
-      "ws--wireframe": "enabled",
-      "core/core-colors": "enabled"
+      "core/core-colors": "source",
+      "core/core-utilities": "source"
     },
     "$figmaStyleReferences": {}
   },
@@ -79,13 +19,73 @@
     "name": "Development",
     "selectedTokenSets": {
       "as--billa-cz": "disabled",
-      "global--utilities": "disabled",
       "ws--billa-cz": "disabled",
       "ws--development": "enabled",
       "ws--penny-int": "disabled",
       "ws--websolution": "source",
       "ws--wireframe": "disabled",
-      "core/core-colors": "enabled"
+      "core/core-colors": "source",
+      "core/core-utilities": "source"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "eae4f6dda115feda8f67121d0438e2f35b7d2f61",
+    "name": "AppSolution",
+    "selectedTokenSets": {
+      "as--billa-cz": "enabled",
+      "ws--billa-cz": "disabled",
+      "ws--development": "disabled",
+      "ws--penny-int": "disabled",
+      "ws--websolution": "source",
+      "ws--wireframe": "disabled",
+      "core/core-colors": "source",
+      "core/core-utilities": "source"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "29f120399582b8dff354fd76496856d53bc79611",
+    "name": "Penny Int",
+    "selectedTokenSets": {
+      "as--billa-cz": "disabled",
+      "ws--billa-cz": "disabled",
+      "ws--development": "disabled",
+      "ws--penny-int": "enabled",
+      "ws--websolution": "source",
+      "ws--wireframe": "disabled",
+      "core/core-colors": "source",
+      "core/core-utilities": "source"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "fdf6f4d27322f41f0b0c348b568c8e8f64f72ed4",
+    "name": "Wireframe",
+    "selectedTokenSets": {
+      "as--billa-cz": "disabled",
+      "ws--billa-cz": "disabled",
+      "ws--development": "disabled",
+      "ws--penny-int": "disabled",
+      "ws--websolution": "source",
+      "ws--wireframe": "enabled",
+      "core/core-colors": "source",
+      "core/core-utilities": "source"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "9efacbe65ecf62038eedc7ffaf58bb219be929d9",
+    "name": "WebSolution",
+    "selectedTokenSets": {
+      "as--billa-cz": "disabled",
+      "ws--billa-cz": "disabled",
+      "ws--development": "disabled",
+      "ws--penny-int": "disabled",
+      "ws--websolution": "enabled",
+      "ws--wireframe": "disabled",
+      "core/core-colors": "source",
+      "core/core-utilities": "source"
     },
     "$figmaStyleReferences": {}
   }
