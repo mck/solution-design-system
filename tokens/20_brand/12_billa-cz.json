@@ -1,0 +1,134 @@
+{
+  "primary": {
+    "value": "#FFD300",
+    "type": "color"
+  },
+  "primary2": {
+    "value": "#BF0B1C",
+    "type": "color"
+  },
+  "primaryText": {
+    "value": "#323232",
+    "type": "color"
+  },
+  "secondary": {
+    "value": "#323232",
+    "type": "color"
+  },
+  "secondaryLight": {
+    "value": "rgba(50,50,50,0.05)",
+    "type": "color"
+  },
+  "accent": {
+    "value": "#BF0B1C",
+    "type": "color"
+  },
+  "price": {
+    "value": "#33373A",
+    "type": "color"
+  },
+  "discount": {
+    "value": "#BF0B1C",
+    "type": "color"
+  },
+  "backgroundLight": {
+    "value": "#F6F7F8",
+    "type": "color"
+  },
+  "base": {
+    "value": "#33373A",
+    "type": "color"
+  },
+  "base2": {
+    "value": "rgba(51,55,58,0.8)",
+    "type": "color"
+  },
+  "base3": {
+    "value": "rgba(51,55,58,0.6)",
+    "type": "color"
+  },
+  "form": {
+    "value": "rgba(51,55,58,0.45)",
+    "type": "color"
+  },
+  "background1": {
+    "value": "rgba(51,55,58,0.25)",
+    "type": "color"
+  },
+  "background2": {
+    "value": "rgba(51,55,58,0.1)",
+    "type": "color"
+  },
+  "background3": {
+    "value": "rgba(51,55,58,0.05)",
+    "type": "color"
+  },
+  "textInverted": {
+    "value": "#ffffff",
+    "type": "color"
+  },
+  "statusError": {
+    "value": "#BB1133",
+    "type": "color"
+  },
+  "statusWarning": {
+    "value": "#BB4400",
+    "type": "color"
+  },
+  "statusInfo": {
+    "value": "#0066BB",
+    "type": "color"
+  },
+  "statusSuccess": {
+    "value": "#227744",
+    "type": "color"
+  },
+  "joe": {
+    "value": "#D6AB53",
+    "type": "color"
+  },
+  "statusErrorLight": {
+    "value": "#fbf3f5",
+    "type": "color"
+  },
+  "statusWarningLight": {
+    "value": "#fbf6f3",
+    "type": "color"
+  },
+  "statusInfoLight": {
+    "value": "#f3f7fc",
+    "type": "color"
+  },
+  "statusSuccessLight": {
+    "value": "#f5f8f6",
+    "type": "color"
+  },
+  "border-radius": {
+    "value": "8",
+    "type": "borderRadius"
+  },
+  "font-family-base": {
+    "value": "DINPro",
+    "type": "fontFamilies"
+  },
+  "headings-font-family": {
+    "value": "DINPro",
+    "type": "fontFamilies"
+  },
+  "ws": {
+    "placeholder": {
+      "contact": {
+        "name": {
+          "value": "{ws.placeholder.contact.lastname}...{ws.placeholder.contact.firstname}",
+          "type": "other"
+        }
+      },
+      "currency": {
+        "short": {
+          "value": "Kč",
+          "type": "other"
+        }
+      }
+    }
+  }
+}
