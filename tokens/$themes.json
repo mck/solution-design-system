@@ -7,7 +7,8 @@
       "00_core/core-base": "source",
       "00_core/core-colors": "source",
       "00_core/core-utilities": "source",
-      "20_brand/websolution": "enabled"
+      "20_brand/websolution": "enabled",
+      "00_core/core-typography": "disabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -19,7 +20,8 @@
       "00_core/core-base": "source",
       "00_core/core-colors": "source",
       "00_core/core-utilities": "source",
-      "20_brand/billa-cz": "enabled"
+      "20_brand/billa-cz": "enabled",
+      "00_core/core-typography": "disabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -30,7 +32,8 @@
       "sas--billa-cz": "enabled",
       "00_core/core-base": "source",
       "00_core/core-colors": "source",
-      "00_core/core-utilities": "source"
+      "00_core/core-utilities": "source",
+      "00_core/core-typography": "disabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -42,7 +45,8 @@
       "00_core/core-base": "source",
       "00_core/core-colors": "source",
       "00_core/core-utilities": "source",
-      "20_brand/penny-int": "enabled"
+      "20_brand/penny-int": "enabled",
+      "00_core/core-typography": "disabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -54,7 +58,8 @@
       "00_core/core-base": "source",
       "00_core/core-colors": "source",
       "00_core/core-utilities": "source",
-      "20_brand/wireframe": "enabled"
+      "20_brand/wireframe": "enabled",
+      "00_core/core-typography": "disabled"
     },
     "$figmaStyleReferences": {}
   }
