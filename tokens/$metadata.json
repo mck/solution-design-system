@@ -1,10 +1,19 @@
 {
   "tokenSetOrder": [
-    "00_core/00_core-base",
-    "00_core/10_core-colors",
-    "00_core/20_core-sizing",
-    "00_core/30_core-utilities",
-    "00_core/40_core-typography",
+    "00_core/_typography/font-family",
+    "00_core/_typography/font-size",
+    "00_core/_typography/font-weight",
+    "00_core/_typography/letter-spacing",
+    "00_core/_typography/line-height",
+    "00_core/_typography/paragraph-spacing",
+    "00_core/_typography/text-case",
+    "00_core/_typography/text-decoration",
+    "00_core/base",
+    "00_core/color",
+    "00_core/placeholder",
+    "00_core/spacing",
+    "00_core/typography",
+    "00_core/utilities",
     "20_brand/00_websolution",
     "20_brand/10_billa-at",
     "20_brand/11_billa-bg",
@@ -18,7 +27,8 @@
     "20_brand/25_penny-ro",
     "20_brand/30_tonis-freilandeier",
     "20_brand/90_wireframe",
-    "30_development/00_variables",
-    "sas--billa-cz"
+    "30_components/product",
+    "30_components/static/address/billing-address-form",
+    "90_development/00_variables"
   ]
 }

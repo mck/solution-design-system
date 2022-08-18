@@ -3,12 +3,6 @@
     "id": "9efacbe65ecf62038eedc7ffaf58bb219be929d9",
     "name": "WebSolution",
     "selectedTokenSets": {
-      "sas--billa-cz": "disabled",
-      "00_core/00_core-base": "source",
-      "00_core/10_core-colors": "source",
-      "00_core/20_core-sizing": "source",
-      "00_core/30_core-utilities": "source",
-      "00_core/40_core-typography": "source",
       "20_brand/00_websolution": "enabled"
     },
     "$figmaStyleReferences": {}
@@ -17,12 +11,6 @@
     "id": "a53da16dd5c3f0b4900a10dea989faae9b13801c",
     "name": "Billa CZ",
     "selectedTokenSets": {
-      "sas--billa-cz": "disabled",
-      "00_core/00_core-base": "source",
-      "00_core/10_core-colors": "source",
-      "00_core/20_core-sizing": "source",
-      "00_core/30_core-utilities": "source",
-      "00_core/40_core-typography": "source",
       "20_brand/12_billa-cz": "enabled"
     },
     "$figmaStyleReferences": {}
@@ -30,26 +18,13 @@
   {
     "id": "eae4f6dda115feda8f67121d0438e2f35b7d2f61",
     "name": "AppSolution",
-    "selectedTokenSets": {
-      "sas--billa-cz": "enabled",
-      "00_core/00_core-base": "source",
-      "00_core/10_core-colors": "source",
-      "00_core/20_core-sizing": "source",
-      "00_core/30_core-utilities": "source",
-      "00_core/40_core-typography": "source"
-    },
+    "selectedTokenSets": {},
     "$figmaStyleReferences": {}
   },
   {
     "id": "29f120399582b8dff354fd76496856d53bc79611",
     "name": "Penny AT",
     "selectedTokenSets": {
-      "sas--billa-cz": "disabled",
-      "00_core/00_core-base": "source",
-      "00_core/10_core-colors": "source",
-      "00_core/20_core-sizing": "source",
-      "00_core/30_core-utilities": "source",
-      "00_core/40_core-typography": "source",
       "20_brand/20_penny-at": "enabled"
     },
     "$figmaStyleReferences": {}
@@ -58,12 +33,6 @@
     "id": "fdf6f4d27322f41f0b0c348b568c8e8f64f72ed4",
     "name": "Wireframe",
     "selectedTokenSets": {
-      "sas--billa-cz": "disabled",
-      "00_core/00_core-base": "source",
-      "00_core/10_core-colors": "source",
-      "00_core/20_core-sizing": "source",
-      "00_core/30_core-utilities": "source",
-      "00_core/40_core-typography": "source",
       "20_brand/90_wireframe": "enabled"
     },
     "$figmaStyleReferences": {}
