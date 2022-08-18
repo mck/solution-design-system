@@ -1,0 +1,38 @@
+{
+  "placeholder": {
+    "date": {
+      "short": {
+        "value": "22.04.2022",
+        "type": "other"
+      },
+      "long": {
+        "value": "Montag 12. Dezember 2022",
+        "type": "other"
+      }
+    },
+    "contact": {
+      "firstname": {
+        "value": "John",
+        "type": "other"
+      },
+      "lastname": {
+        "value": "Doe",
+        "type": "other"
+      },
+      "name": {
+        "value": "{ws.placeholder.contact.firstname}, {ws.placeholder.contact.lastname}",
+        "type": "other"
+      }
+    },
+    "currency": {
+      "short": {
+        "value": "€",
+        "type": "other"
+      },
+      "long": {
+        "value": "EUR",
+        "type": "other"
+      }
+    }
+  }
+}

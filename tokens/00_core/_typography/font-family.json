@@ -1,0 +1,11 @@
+{
+  "font-family-base": {
+    "value": "Inter",
+    "type": "fontFamilies",
+    "description": "current: typography.base.family"
+  },
+  "headings-font-family": {
+    "value": "Inter",
+    "type": "fontFamilies"
+  }
+}
