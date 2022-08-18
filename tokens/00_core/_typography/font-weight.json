@@ -1,0 +1,10 @@
+{
+  "font-weight-base": {
+    "value": "Regular",
+    "type": "fontWeights"
+  },
+  "font-weight-bold": {
+    "value": "Bold",
+    "type": "fontWeights"
+  }
+}

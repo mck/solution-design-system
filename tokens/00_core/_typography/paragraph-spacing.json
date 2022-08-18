@@ -1,0 +1,6 @@
+{
+  "paragraph-spacing-base": {
+    "value": "{font-size-base}",
+    "type": "paragraphSpacing"
+  }
+}

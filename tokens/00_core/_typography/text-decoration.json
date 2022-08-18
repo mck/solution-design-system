@@ -1,0 +1,6 @@
+{
+  "text-decoration-strike": {
+    "value": "line-through",
+    "type": "textDecoration"
+  }
+}
