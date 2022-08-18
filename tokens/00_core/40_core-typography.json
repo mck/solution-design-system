@@ -1,1 +1,132 @@
-{}
+{
+  "typography": {
+    "h5": {
+      "xs": {
+        "value": {
+          "fontFamily": "{headings-font-family}",
+          "fontWeight": "{font-weight-bold}",
+          "lineHeight": "{line-height-130}",
+          "fontSize": "{ws.font-size.heading.h5.xs}",
+          "letterSpacing": "{letter-spacing-base}",
+          "paragraphSpacing": "{paragraph-spacing-base}",
+          "textDecoration": "{text-decoration-none}",
+          "textCase": "{text-case-none}"
+        },
+        "type": "typography"
+      },
+      "lg": {
+        "value": {
+          "fontFamily": "{headings-font-family}",
+          "fontWeight": "{font-weight-bold}",
+          "lineHeight": "{line-height-130}",
+          "fontSize": "{ws.font-size.heading.h5.lg}",
+          "letterSpacing": "{letter-spacing-base}",
+          "paragraphSpacing": "{paragraph-spacing-base}",
+          "textDecoration": "{text-decoration-none}",
+          "textCase": "{text-case-none}"
+        },
+        "type": "typography"
+      }
+    },
+    "body": {
+      "small": {
+        "bold": {
+          "xs": {
+            "value": {
+              "fontFamily": "{font-family-base}",
+              "fontWeight": "{font-weight-bold}",
+              "lineHeight": "{line-height-base}",
+              "fontSize": "{ws.font-size.body.small.xs}",
+              "letterSpacing": "{letter-spacing-base}",
+              "paragraphSpacing": "{paragraph-spacing-base}",
+              "textDecoration": "{text-decoration-none}",
+              "textCase": "{text-case-none}"
+            },
+            "type": "typography"
+          }
+        },
+        "regular": {
+          "xs": {
+            "value": {
+              "fontFamily": "{font-family-base}",
+              "fontWeight": "{font-weight-base}",
+              "lineHeight": "{line-height-base}",
+              "fontSize": "{ws.font-size.body.small.xs}",
+              "letterSpacing": "{letter-spacing-base}",
+              "paragraphSpacing": "{paragraph-spacing-base}",
+              "textDecoration": "{text-decoration-none}",
+              "textCase": "{text-case-none}"
+            },
+            "type": "typography"
+          }
+        }
+      },
+      "default": {
+        "regular": {
+          "xs": {
+            "value": {
+              "fontFamily": "{font-family-base}",
+              "fontWeight": "{font-weight-base}",
+              "lineHeight": "{line-height-base}",
+              "fontSize": "{ws.font-size.body.regular.xs}",
+              "letterSpacing": "{letter-spacing-base}",
+              "paragraphSpacing": "{paragraph-spacing-base}",
+              "textDecoration": "{text-decoration-none}",
+              "textCase": "{text-case-none}"
+            },
+            "type": "typography"
+          }
+        },
+        "bold": {
+          "xs": {
+            "value": {
+              "fontFamily": "{font-family-base}",
+              "fontWeight": "{font-weight-bold}",
+              "lineHeight": "{line-height-base}",
+              "fontSize": "{ws.font-size.body.regular.xs}",
+              "letterSpacing": "{letter-spacing-base}",
+              "paragraphSpacing": "{paragraph-spacing-base}",
+              "textDecoration": "{text-decoration-none}",
+              "textCase": "{text-case-none}"
+            },
+            "type": "typography"
+          }
+        }
+      }
+    },
+    "caption": {
+      "regular": {
+        "xs": {
+          "value": {
+            "fontFamily": "{font-family-base}",
+            "fontWeight": "{font-weight-base}",
+            "lineHeight": "{line-height-130}",
+            "fontSize": "{font-size-75}",
+            "letterSpacing": "{letter-spacing-base}",
+            "paragraphSpacing": "{paragraph-spacing-base}",
+            "textDecoration": "{text-decoration-none}",
+            "textCase": "{text-case-none}"
+          },
+          "type": "typography"
+        }
+      }
+    },
+    "price": {
+      "strike": {
+        "xs": {
+          "value": {
+            "fontFamily": "{font-family-base}",
+            "fontWeight": "{font-weight-base}",
+            "lineHeight": "{line-height-base}",
+            "fontSize": "{ws.font-size.body.small.xs}",
+            "letterSpacing": "{letter-spacing-base}",
+            "paragraphSpacing": "{paragraph-spacing-base}",
+            "textDecoration": "{text-decoration-strike}",
+            "textCase": "{text-case-none}"
+          },
+          "type": "typography"
+        }
+      }
+    }
+  }
+}

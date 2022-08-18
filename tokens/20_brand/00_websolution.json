@@ -486,38 +486,38 @@
     "tile": {
       "title": {
         "xs": {
-          "value": "{ws.heading.h5.lg}",
+          "value": "{typography.h5.lg}",
           "type": "typography"
         }
       },
       "description": {
         "xs": {
-          "value": "{ws.body.small.regular.xs}",
+          "value": "{typography.body.small.regular.xs}",
           "type": "typography"
         }
       },
       "price": {
         "main": {
           "xs": {
-            "value": "{ws.heading.h5.xs}",
+            "value": "{typography.h5.xs}",
             "type": "typography"
           }
         },
         "base": {
           "xs": {
-            "value": "{ws.body.small.regular.xs}",
+            "value": "{typography.body.small.regular.xs}",
             "type": "typography"
           }
         },
         "discount": {
           "xs": {
-            "value": "{ws.body.small.bold.xs}",
+            "value": "{typography.body.small.bold.xs}",
             "type": "typography"
           }
         },
         "strike": {
           "xs": {
-            "value": "{ws.price.strike.xs}",
+            "value": "{typography.price.strike.xs}",
             "type": "typography"
           }
         }
@@ -530,7 +530,7 @@
   },
   "label": {
     "value": {
-      "typography": "{ws.body.small.bold.xs}",
+      "typography": "{typography.body.small.bold.xs}",
       "borderRadius": "{border-radius}",
       "verticalPadding": "{alias.card.padding.x.xs}",
       "horizontalPadding": "{alias.card.padding.y.xs}",

@@ -1,0 +1,24 @@
+{
+  "tokenSetOrder": [
+    "00_core/00_core-base",
+    "00_core/10_core-colors",
+    "00_core/20_core-sizing",
+    "00_core/30_core-utilities",
+    "00_core/40_core-typography",
+    "20_brand/00_websolution",
+    "20_brand/10_billa-at",
+    "20_brand/11_billa-bg",
+    "20_brand/12_billa-cz",
+    "20_brand/13_billa-sk",
+    "20_brand/20_penny-at",
+    "20_brand/21_penny-cz",
+    "20_brand/22_penny-eu",
+    "20_brand/23_penny-eu",
+    "20_brand/24_penny-hu",
+    "20_brand/25_penny-ro",
+    "20_brand/30_tonis-freilandeier",
+    "20_brand/90_wireframe",
+    "30_development/00_variables",
+    "sas--billa-cz"
+  ]
+}
