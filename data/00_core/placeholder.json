@@ -20,7 +20,7 @@
         "type": "other"
       },
       "name": {
-        "value": "{ws.placeholder.contact.firstname}, {ws.placeholder.contact.lastname}",
+        "value": "{placeholder.contact.firstname}, {placeholder.contact.lastname}",
         "type": "other"
       }
     },

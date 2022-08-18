@@ -377,11 +377,6 @@
       }
     }
   },
-  "font-family-base": {
-    "value": "Inter",
-    "type": "fontFamilies",
-    "description": "current: typography.base.family"
-  },
   "border-radius": {
     "value": "0",
     "type": "borderRadius"

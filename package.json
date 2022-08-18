@@ -1,0 +1,28 @@
+{
+  "name": "sds-token-transformer",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "config": {
+    "core": "00_core/_typography/font-family,00_core/_typography/font-size,00_core/_typography/font-weight,00_core/_typography/letter-spacing,,00_core/_typography/line-height,00_core/_typography/paragraph-spacing,00_core/_typography/text-case,00_core/_typography/text-decoration,00_core/base,00_core/color,00_core/spacing,00_core/typography"
+  },
+  "scripts": {
+    "transform-websolution": "npx token-transformer data tokens/websolution.json $npm_package_config_core,20_brand/00_websolution --expandTypography --expandShadow",
+    "transform-billa-at": "npx token-transformer data tokens/billa-at.json $npm_package_config_core,20_brand/10_billa-at --expandTypography --expandShadow",
+    "transform-billa-cz": "npx token-transformer data tokens/billa-cz.json $npm_package_config_core,20_brand/12_billa-cz --expandTypography --expandShadow",
+    "transform": "yarn transform-websolution && yarn transform-billa-at && yarn transform-billa-cz",
+    "build": "node ./script/build.js"
+  },
+  "keywords": [
+    "figma-tokens",
+    "design-systems",
+    "design-tokens"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@changesets/cli": "^2.22.0",
+    "style-dictionary": "^3.7.0",
+    "token-transformer": "^0.0.23"
+  }
+}

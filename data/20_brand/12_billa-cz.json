@@ -119,7 +119,7 @@
     "placeholder": {
       "contact": {
         "name": {
-          "value": "{ws.placeholder.contact.lastname}...{ws.placeholder.contact.firstname}",
+          "value": "{placeholder.contact.lastname}, {placeholder.contact.firstname}",
           "type": "other"
         }
       },
