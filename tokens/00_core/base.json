@@ -5,43 +5,15 @@
         "value": "{border-radius}",
         "type": "borderRadius"
       }
-    },
-    "placeholder": {
-      "date": {
-        "short": {
-          "value": "22.04.2022",
-          "type": "other"
-        },
-        "long": {
-          "value": "Montag 12. Dezember 2022",
-          "type": "other"
-        }
-      },
-      "contact": {
-        "firstname": {
-          "value": "John",
-          "type": "other"
-        },
-        "lastname": {
-          "value": "Doe",
-          "type": "other"
-        },
-        "name": {
-          "value": "{ws.placeholder.contact.firstname}, {ws.placeholder.contact.lastname}",
-          "type": "other"
-        }
-      },
-      "currency": {
-        "short": {
-          "value": "€",
-          "type": "other"
-        },
-        "long": {
-          "value": "EUR",
-          "type": "other"
-        }
-      }
     }
+  },
+  "border-radius": {
+    "value": "0",
+    "type": "borderRadius"
+  },
+  "border-width-base": {
+    "value": "1",
+    "type": "borderWidth"
   },
   "alias": {
     "card": {
@@ -82,42 +54,5 @@
         "type": "borderRadius"
       }
     }
-  },
-  "font-family-base": {
-    "value": "Inter",
-    "type": "fontFamilies",
-    "description": "current: typography.base.family"
-  },
-  "border-radius": {
-    "value": "0",
-    "type": "borderRadius"
-  },
-  "font-weight-base": {
-    "value": "Regular",
-    "type": "fontWeights"
-  },
-  "font-weight-bold": {
-    "value": "Bold",
-    "type": "fontWeights"
-  },
-  "text-case-none": {
-    "value": "none",
-    "type": "textCase"
-  },
-  "text-decoration-none": {
-    "value": "none",
-    "type": "textDecoration"
-  },
-  "headings-font-family": {
-    "value": "Inter",
-    "type": "fontFamilies"
-  },
-  "border-width-base": {
-    "value": "1",
-    "type": "borderWidth"
-  },
-  "text-decoration-strike": {
-    "value": "line-through",
-    "type": "textDecoration"
   }
 }
