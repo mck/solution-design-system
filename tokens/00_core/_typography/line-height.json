@@ -22,5 +22,9 @@
   "line-height-150": {
     "value": "150%",
     "type": "lineHeights"
+  },
+  "line-height-200": {
+    "value": "{font-size-base}*2",
+    "type": "lineHeights"
   }
 }
