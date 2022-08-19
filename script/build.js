@@ -83,6 +83,38 @@ StyleDictionaryPackage.registerTransform({
   },
 });
 
+StyleDictionaryPackage.registerTransform({
+  name: "sizes/dp",
+  type: "value",
+  matcher: function(prop) {
+    return [
+      "spacing",
+      "borderRadius",
+      "borderWidth",
+      "sizing",
+    ].includes(prop.type);
+  },
+  transformer: function(prop) {
+    // You can also modify the value here if you want to convert pixels to ems
+    return parseFloat(prop.original.value) + "dp";
+  },
+});
+
+
+StyleDictionaryPackage.registerTransform({
+  name: "sizes/sp",
+  type: "value",
+  matcher: function(prop) {
+    return [
+      "fontSizes"
+    ].includes(prop.type);
+  },
+  transformer: function(prop) {
+    // You can also modify the value here if you want to convert pixels to ems
+    return parseFloat(prop.original.value) + "sp";
+  },
+});
+
 // transform: px to rem
 StyleDictionaryPackage.registerTransform({
   name: "pxToRem",
@@ -162,7 +194,10 @@ function getStyleDictionaryConfig(theme) {
       },
       js: {
         buildPath: `dist/`,
-        transforms: ["name/js/es6", "pxToRem"],
+        transforms: [
+          "name/js/es6", 
+          "pxToRem"
+        ],
         // map the array of token file paths to style dictionary output files
         files: [
           {
@@ -170,6 +205,36 @@ function getStyleDictionaryConfig(theme) {
             format: `javascript/es6`,
           },
         ],
+      },
+      jsModule: {
+        buildPath: `dist/`,
+        transforms: [
+          "sizes/px",
+          "pxToRem"
+        ],
+        // map the array of token file paths to style dictionary output files
+        files: [
+          {
+            destination: `js/module/${theme}.js`,
+            format: `javascript/module`,
+          },
+        ],
+      },
+      android: {
+        buildPath: `dist/`,
+        transforms: [
+          "attribute/cti",
+          "name/cti/snake",
+          "color/hex8android",
+          "sizes/dp",
+          "sizes/sp"
+        ],
+        files: [
+          {
+            destination: `android/${theme}.xml`,
+            format: `android/resources`
+          }
+        ]
       }
     },
   };
@@ -184,7 +249,7 @@ console.log("Building tokens...");
   const StyleDictionary = StyleDictionaryPackage.extend(
     getStyleDictionaryConfig(theme)
   );
-  const platforms = ["css", "js"]; // "jsModule" was removed
+  const platforms = ["css", "js", "android"]; // "jsModule" can be added again
   platforms.map((platform) => {
     return StyleDictionary.buildPlatform(platform);
   });

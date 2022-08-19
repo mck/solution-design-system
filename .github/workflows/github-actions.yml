@@ -16,6 +16,6 @@ jobs:
       # Run Style Dictionary config
       - run: yarn build
       # Add files that were created during a run, e.g. created files from style dictionary or token-transformer.
-      - uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: Update Tokens
+      #- uses: stefanzweifel/git-auto-commit-action@v4
+      #  with:
+      #    commit_message: Update Tokens
