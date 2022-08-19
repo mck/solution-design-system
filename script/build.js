@@ -3,20 +3,6 @@ const { fileHeader, formattedVariables } = StyleDictionaryPackage.formatHelpers;
 const { kebabCase, isPx } = require("../lib/utils");
 
 /**
- * format for css variables
- */
-StyleDictionaryPackage.registerFormat({
-  name: "css/variables",
-  formatter: function(dictionary, config) {
-    return `${this.selector} {
-        ${dictionary.allProperties
-          .map((prop) => `  --${prop.name}: ${prop.value};`)
-          .join("\n")}
-      }`;
-  },
-});
-
-/**
  * format for javascript/module
  */
 StyleDictionaryPackage.registerFormat({
@@ -84,12 +70,12 @@ StyleDictionaryPackage.registerTransform({
   type: "value",
   matcher: function(prop) {
     return [
-      "fontSize",
+      "fontSizes",
       "spacing",
       "borderRadius",
       "borderWidth",
       "sizing",
-    ].includes(prop.attributes.category);
+    ].includes(prop.type);
   },
   transformer: function(prop) {
     // You can also modify the value here if you want to convert pixels to ems
@@ -156,17 +142,21 @@ function getStyleDictionaryConfig(theme) {
         transforms: [
           "attribute/cti",
           "name/cti/kebab",
+          "time/seconds",
           "sizes/px",
-          "shadow/shorthand",
           "pxToRem",
           "typography/shorthand",
+          "shadow/shorthand"
         ],
         buildPath: `dist/`,
         files: [
           {
             destination: `css/${theme}.css`,
             format: "css/variables",
-            selector: `[data-theme="${theme}"]`,
+            selector: `[data-theme=${theme}]`,
+            options: {
+              outputReferences: true
+            },
           },
         ],
       },
@@ -180,50 +170,21 @@ function getStyleDictionaryConfig(theme) {
             format: `javascript/es6`,
           },
         ],
-      },
-      scss: {
-        buildPath: `dist/`,
-        transforms: [
-          "attribute/cti",
-          "name/cti/kebab",
-          "sizes/px",
-          "shadow/shorthand",
-          "pxToRem",
-          "typography/shorthand",
-        ],
-        // map the array of token file paths to style dictionary output files
-        files: [
-          {
-            destination: `scss/${theme}.scss`,
-            format: `javascript/es6`,
-          },
-        ],
-      },
-      jsModule: {
-        buildPath: `dist/`,
-        transforms: ["pxToRem"],
-        // map the array of token file paths to style dictionary output files
-        files: [
-          {
-            destination: `js/module/${theme}.js`,
-            format: `javascript/module`,
-          },
-        ],
-      },
+      }
     },
   };
 }
 
 console.log("Building tokens...");
 
-["billa-at"].map(function(theme) {
+["websolution","billa-at","billa-cz","penny-at"].map(function(theme) {
   console.log("\n==============================================");
   console.log(`\nProcessing: [${theme}]`);
 
   const StyleDictionary = StyleDictionaryPackage.extend(
     getStyleDictionaryConfig(theme)
   );
-  const platforms = ["css", "js", "jsModule", "scss"];
+  const platforms = ["css", "js"]; // "jsModule" was removed
   platforms.map((platform) => {
     return StyleDictionary.buildPlatform(platform);
   });

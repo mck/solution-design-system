@@ -114,21 +114,5 @@
   "headings-font-family": {
     "value": "DINPro",
     "type": "fontFamilies"
-  },
-  "ws": {
-    "placeholder": {
-      "contact": {
-        "name": {
-          "value": "{placeholder.contact.lastname}, {placeholder.contact.firstname}",
-          "type": "other"
-        }
-      },
-      "currency": {
-        "short": {
-          "value": "Kč",
-          "type": "other"
-        }
-      }
-    }
   }
 }
