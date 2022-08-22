@@ -1,4 +1,60 @@
 {
+  "color": {
+    "primary": {
+      "value": "{primary}",
+      "type": "color"
+    },
+    "on-primary": {
+      "value": "{primaryText}",
+      "type": "color"
+    },
+    "secondary": {
+      "value": "{secondary}",
+      "type": "color"
+    },
+    "on-secondary": {
+      "value": "#fff",
+      "type": "color"
+    },
+    "tertiary": {
+      "value": "#FF5500",
+      "type": "color"
+    },
+    "on-tertiary": {
+      "value": "#fff",
+      "type": "color"
+    },
+    "border-color": {
+      "default": {
+        "value": "rgba(51,55,58,0.25)",
+        "type": "color"
+      }
+    },
+    "background": {
+      "default": {
+        "value": "#ffffff",
+        "type": "color"
+      }
+    },
+    "text": {
+      "default": {
+        "value": "{base}",
+        "type": "color"
+      }
+    }
+  },
+  "alias": {
+    "card": {
+      "border-color": {
+        "value": "{color.border-color.default}",
+        "type": "color"
+      },
+      "background": {
+        "value": "{color.background.default}",
+        "type": "color"
+      }
+    }
+  },
   "primary": {
     "value": "#0066BB",
     "type": "color"
@@ -102,51 +158,5 @@
   "statusSuccessLight": {
     "value": "#f5f8f6",
     "type": "color"
-  },
-  "color": {
-    "border-color": {
-      "value": "rgba(51,55,58,0.25)",
-      "type": "color"
-    },
-    "background": {
-      "value": "#ffffff",
-      "type": "color"
-    },
-    "primary": {
-      "value": "{primary}",
-      "type": "color"
-    },
-    "on-primary": {
-      "value": "{primaryText}",
-      "type": "color"
-    },
-    "secondary": {
-      "value": "{secondary}",
-      "type": "color"
-    },
-    "on-secondary": {
-      "value": "#fff",
-      "type": "color"
-    },
-    "tertiary": {
-      "value": "#FF5500",
-      "type": "color"
-    },
-    "on-tertiary": {
-      "value": "#fff",
-      "type": "color"
-    }
-  },
-  "alias": {
-    "card": {
-      "border-color": {
-        "value": "{color.border-color}",
-        "type": "color"
-      },
-      "background": {
-        "value": "{color.background}",
-        "type": "color"
-      }
-    }
   }
 }
