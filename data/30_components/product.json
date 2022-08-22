@@ -1,44 +1,10 @@
 {
-  "product": {
-    "tile": {
-      "title": {
-        "xs": {
-          "value": "{typography.h5.lg}",
-          "type": "typography"
-        }
-      },
-      "description": {
-        "xs": {
-          "value": "{typography.body.small.regular.xs}",
-          "type": "typography"
-        }
-      },
-      "price": {
-        "main": {
-          "xs": {
-            "value": "{typography.h5.xs}",
-            "type": "typography"
-          }
-        },
-        "base": {
-          "xs": {
-            "value": "{typography.body.small.regular.xs}",
-            "type": "typography"
-          }
-        },
-        "discount": {
-          "xs": {
-            "value": "{typography.body.small.bold.xs}",
-            "type": "typography"
-          }
-        },
-        "strike": {
-          "xs": {
-            "value": "{typography.price.strike.xs}",
-            "type": "typography"
-          }
-        }
-      }
-    }
+  "product-color-ref": {
+    "value": "{primary}",
+    "type": "color"
+  },
+  "product-color-value": {
+    "value": "#f00f00",
+    "type": "color"
   }
 }

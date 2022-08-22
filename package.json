@@ -11,7 +11,8 @@
     "transform-billa-at": "npx token-transformer data tokens/billa-at.json $npm_package_config_core,20_brand/10_billa-at --expandTypography=false --expandShadow=false --resolveReferences=math",
     "transform-billa-cz": "npx token-transformer data tokens/billa-cz.json $npm_package_config_core,20_brand/12_billa-cz --expandTypography=false --expandShadow=false --resolveReferences=math",
     "transform-penny-at": "npx token-transformer data tokens/penny-at.json $npm_package_config_core,20_brand/20_penny-at --expandTypography=false --expandShadow=false --resolveReferences=math",
-    "transform": "yarn transform-websolution && yarn transform-billa-at && yarn transform-billa-cz && yarn transform-penny-at",
+    "transform-product": "npx token-transformer data tokens/product.json 30_components/product --expandTypography=false --expandShadow=false --resolveReferences=math",
+    "transform": "yarn transform-websolution && yarn transform-billa-at && yarn transform-billa-cz && yarn transform-penny-at && yarn transform-product",
     "build": "node ./script/build.js"
   },
   "keywords": [

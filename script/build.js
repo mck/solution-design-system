@@ -196,6 +196,7 @@ function getStyleDictionaryConfig(theme) {
         buildPath: `dist/`,
         transforms: [
           "name/js/es6", 
+          "sizes/px",
           "pxToRem"
         ],
         // map the array of token file paths to style dictionary output files
@@ -242,7 +243,7 @@ function getStyleDictionaryConfig(theme) {
 
 console.log("Building tokens...");
 
-["websolution","billa-at","billa-cz","penny-at"].map(function(theme) {
+["websolution","billa-at","billa-cz","penny-at","product"].map(function(theme) {
   console.log("\n==============================================");
   console.log(`\nProcessing: [${theme}]`);
 
