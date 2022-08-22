@@ -1,13 +1,5 @@
 {
   "tokenSetOrder": [
-    "00_core/_typography/font-family",
-    "00_core/_typography/font-size",
-    "00_core/_typography/font-weight",
-    "00_core/_typography/letter-spacing",
-    "00_core/_typography/line-height",
-    "00_core/_typography/paragraph-spacing",
-    "00_core/_typography/text-case",
-    "00_core/_typography/text-decoration",
     "00_core/base",
     "00_core/color",
     "00_core/placeholder",
