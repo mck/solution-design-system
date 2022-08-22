@@ -3,7 +3,21 @@
     "id": "9efacbe65ecf62038eedc7ffaf58bb219be929d9",
     "name": "WebSolution",
     "selectedTokenSets": {
-      "20_brand/00_websolution": "enabled"
+      "20_brand/00_websolution": "enabled",
+      "00_core/_typography/font-family": "source",
+      "00_core/_typography/font-size": "source",
+      "00_core/_typography/font-weight": "source",
+      "00_core/_typography/letter-spacing": "source",
+      "00_core/_typography/line-height": "source",
+      "00_core/_typography/paragraph-spacing": "source",
+      "00_core/_typography/text-case": "source",
+      "00_core/_typography/text-decoration": "source",
+      "00_core/base": "source",
+      "00_core/color": "source",
+      "00_core/placeholder": "source",
+      "00_core/spacing": "source",
+      "00_core/typography": "source",
+      "00_core/utilities": "source"
     },
     "$figmaStyleReferences": {}
   },
@@ -11,21 +25,43 @@
     "id": "a53da16dd5c3f0b4900a10dea989faae9b13801c",
     "name": "Billa CZ",
     "selectedTokenSets": {
-      "20_brand/12_billa-cz": "enabled"
+      "20_brand/12_billa-cz": "enabled",
+      "00_core/_typography/font-family": "source",
+      "00_core/_typography/font-size": "source",
+      "00_core/_typography/font-weight": "source",
+      "00_core/_typography/letter-spacing": "source",
+      "00_core/_typography/line-height": "source",
+      "00_core/_typography/paragraph-spacing": "source",
+      "00_core/_typography/text-case": "source",
+      "00_core/_typography/text-decoration": "source",
+      "00_core/base": "source",
+      "00_core/color": "source",
+      "00_core/placeholder": "source",
+      "00_core/spacing": "source",
+      "00_core/typography": "source",
+      "00_core/utilities": "source"
     },
-    "$figmaStyleReferences": {}
-  },
-  {
-    "id": "eae4f6dda115feda8f67121d0438e2f35b7d2f61",
-    "name": "AppSolution",
-    "selectedTokenSets": {},
     "$figmaStyleReferences": {}
   },
   {
     "id": "29f120399582b8dff354fd76496856d53bc79611",
     "name": "Penny AT",
     "selectedTokenSets": {
-      "20_brand/20_penny-at": "enabled"
+      "20_brand/20_penny-at": "enabled",
+      "00_core/_typography/font-family": "source",
+      "00_core/_typography/font-size": "source",
+      "00_core/_typography/font-weight": "source",
+      "00_core/_typography/letter-spacing": "source",
+      "00_core/_typography/line-height": "source",
+      "00_core/_typography/paragraph-spacing": "source",
+      "00_core/_typography/text-case": "source",
+      "00_core/_typography/text-decoration": "source",
+      "00_core/base": "source",
+      "00_core/color": "source",
+      "00_core/placeholder": "source",
+      "00_core/spacing": "source",
+      "00_core/typography": "source",
+      "00_core/utilities": "source"
     },
     "$figmaStyleReferences": {}
   },
@@ -33,7 +69,21 @@
     "id": "fdf6f4d27322f41f0b0c348b568c8e8f64f72ed4",
     "name": "Wireframe",
     "selectedTokenSets": {
-      "20_brand/90_wireframe": "enabled"
+      "20_brand/90_wireframe": "enabled",
+      "00_core/_typography/font-family": "source",
+      "00_core/_typography/font-size": "source",
+      "00_core/_typography/font-weight": "source",
+      "00_core/_typography/letter-spacing": "source",
+      "00_core/_typography/line-height": "source",
+      "00_core/_typography/paragraph-spacing": "source",
+      "00_core/_typography/text-case": "source",
+      "00_core/_typography/text-decoration": "source",
+      "00_core/base": "source",
+      "00_core/color": "source",
+      "00_core/placeholder": "source",
+      "00_core/spacing": "source",
+      "00_core/typography": "source",
+      "00_core/utilities": "source"
     },
     "$figmaStyleReferences": {}
   }
