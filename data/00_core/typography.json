@@ -128,5 +128,110 @@
         }
       }
     }
+  },
+  "font-family-base": {
+    "value": "Inter",
+    "type": "fontFamilies",
+    "description": "current: typography.base.family"
+  },
+  "headings-font-family": {
+    "value": "Inter",
+    "type": "fontFamilies"
+  },
+  "font-size-base": {
+    "value": "16",
+    "type": "fontSizes"
+  },
+  "font-size-75": {
+    "value": "{font-size-base}*0.75",
+    "type": "fontSizes"
+  },
+  "font-size-90": {
+    "value": "{font-size-base}*0.875",
+    "type": "fontSizes"
+  },
+  "font-size-100": {
+    "value": "{font-size-base}",
+    "type": "fontSizes"
+  },
+  "font-size-110": {
+    "value": "{font-size-base}*1.125",
+    "type": "fontSizes"
+  },
+  "font-size-125": {
+    "value": "{font-size-base}*1.25",
+    "type": "fontSizes"
+  },
+  "font-size-150": {
+    "value": "{font-size-base}*1.5",
+    "type": "fontSizes"
+  },
+  "font-size-200": {
+    "value": "{font-size-base}*2",
+    "type": "fontSizes"
+  },
+  "font-size-250": {
+    "value": "{font-size-base}*2.5",
+    "type": "fontSizes"
+  },
+  "font-size-300": {
+    "value": "{font-size-base}*3",
+    "type": "fontSizes"
+  },
+  "font-weight-base": {
+    "value": "Regular",
+    "type": "fontWeights"
+  },
+  "font-weight-bold": {
+    "value": "Bold",
+    "type": "fontWeights"
+  },
+  "letter-spacing-base": {
+    "value": "0%",
+    "type": "letterSpacing"
+  },
+  "line-height-base": {
+    "value": "{line-height-150}",
+    "type": "lineHeights"
+  },
+  "line-height-100": {
+    "value": "100%",
+    "type": "lineHeights"
+  },
+  "line-height-120": {
+    "value": "120%",
+    "type": "lineHeights"
+  },
+  "line-height-130": {
+    "value": "130%",
+    "type": "lineHeights"
+  },
+  "line-height-140": {
+    "value": "140%",
+    "type": "lineHeights"
+  },
+  "line-height-150": {
+    "value": "150%",
+    "type": "lineHeights"
+  },
+  "line-height-200": {
+    "value": "{font-size-base}*2",
+    "type": "lineHeights"
+  },
+  "paragraph-spacing-base": {
+    "value": "{font-size-base}",
+    "type": "paragraphSpacing"
+  },
+  "text-case-none": {
+    "value": "none",
+    "type": "textCase"
+  },
+  "text-decoration-none": {
+    "value": "none",
+    "type": "textDecoration"
+  },
+  "text-decoration-strike": {
+    "value": "line-through",
+    "type": "textDecoration"
   }
 }
