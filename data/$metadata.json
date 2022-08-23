@@ -19,8 +19,7 @@
     "20_brand/25_penny-ro",
     "20_brand/30_tonis-freilandeier",
     "20_brand/90_wireframe",
-    "30_components/product",
-    "30_components/static/address/billing-address-form",
+    "50_components/slot",
     "90_development/00_variables"
   ]
 }

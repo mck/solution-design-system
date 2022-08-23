@@ -243,7 +243,7 @@ function getStyleDictionaryConfig(theme) {
 
 console.log("Building tokens...");
 
-["websolution","billa-at","billa-cz","penny-at","product"].map(function(theme) {
+["websolution","billa-at","billa-cz","penny-at","slot"].map(function(theme) {
   console.log("\n==============================================");
   console.log(`\nProcessing: [${theme}]`);
 
