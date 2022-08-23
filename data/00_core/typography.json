@@ -30,7 +30,7 @@
       "value": {
         "fontFamily": "{headings-font-family}",
         "fontWeight": "{font-weight-bold}",
-        "lineHeight": "{line-height-base}",
+        "lineHeight": "{line-height-120}",
         "fontSize": "{font-size-150}",
         "letterSpacing": "{letter-spacing-base}",
         "paragraphSpacing": "{paragraph-spacing-base}",
@@ -173,7 +173,7 @@
         "value": {
           "fontFamily": "{headings-font-family}",
           "fontWeight": "{font-weight-bold}",
-          "lineHeight": "{line-height-base}",
+          "lineHeight": "{line-height-120}",
           "fontSize": "{font-size-200}",
           "letterSpacing": "{letter-spacing-base}",
           "paragraphSpacing": "{paragraph-spacing-base}",
