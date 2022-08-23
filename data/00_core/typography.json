@@ -26,7 +26,20 @@
       },
       "type": "typography"
     },
-    "subtitle1": {
+    "headline1": {
+      "value": {
+        "fontFamily": "{headings-font-family}",
+        "fontWeight": "{font-weight-bold}",
+        "lineHeight": "{line-height-base}",
+        "fontSize": "{font-size-150}",
+        "letterSpacing": "{letter-spacing-base}",
+        "paragraphSpacing": "{paragraph-spacing-base}",
+        "textDecoration": "{text-decoration-none}",
+        "textCase": "{text-case-none}"
+      },
+      "type": "typography"
+    },
+    "title1": {
       "value": {
         "fontFamily": "{headings-font-family}",
         "fontWeight": "{font-weight-bold}",
@@ -156,7 +169,20 @@
         },
         "type": "typography"
       },
-      "subtitle1": {
+      "headline1": {
+        "value": {
+          "fontFamily": "{headings-font-family}",
+          "fontWeight": "{font-weight-bold}",
+          "lineHeight": "{line-height-base}",
+          "fontSize": "{font-size-200}",
+          "letterSpacing": "{letter-spacing-base}",
+          "paragraphSpacing": "{paragraph-spacing-base}",
+          "textDecoration": "{text-decoration-none}",
+          "textCase": "{text-case-none}"
+        },
+        "type": "typography"
+      },
+      "title": {
         "value": {
           "fontFamily": "{headings-font-family}",
           "fontWeight": "{font-weight-bold}",
