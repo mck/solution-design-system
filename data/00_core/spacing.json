@@ -1,5 +1,9 @@
 {
   "spacing": {
+    "0": {
+      "value": "0",
+      "type": "spacing"
+    },
     "10": {
       "value": "{spacing.base}*0.125",
       "type": "spacing"
