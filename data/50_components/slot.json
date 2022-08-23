@@ -1,10 +1,26 @@
 {
-  "product-color-ref": {
-    "value": "{primary}",
-    "type": "color"
+  "color": {
+    "slot": {
+      "text": {
+        "value": "{primary}",
+        "type": "color"
+      },
+      "background": {
+        "value": "rgba({primary},0.1)",
+        "type": "color"
+      },
+      "border-color": {
+        "value": "{color.primary}",
+        "type": "color"
+      }
+    }
   },
-  "product-color-value": {
-    "value": "#f00f00",
-    "type": "color"
+  "border-width": {
+    "slot": {
+      "default": {
+        "value": "{border-width-base}",
+        "type": "borderWidth"
+      }
+    }
   }
 }
