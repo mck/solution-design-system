@@ -1,63 +1,71 @@
 {
-  "spacing": {
+  "spacer": {
     "0": {
       "value": "0",
       "type": "spacing"
     },
     "10": {
-      "value": "{spacing.base}*0.125",
+      "value": "{spacer.base}*0.125",
       "type": "spacing"
     },
     "25": {
-      "value": "{spacing.base}*0.25",
+      "value": "{spacer.base}*0.25",
       "type": "spacing"
     },
     "35": {
-      "value": "{spacing.base}*0.375",
+      "value": "{spacer.base}*0.375",
       "type": "spacing"
     },
     "50": {
-      "value": "{spacing.base}*0.5",
+      "value": "{spacer.base}*0.5",
       "type": "spacing"
     },
     "65": {
-      "value": "{spacing.base}*0.625",
+      "value": "{spacer.base}*0.625",
       "type": "spacing"
     },
     "75": {
-      "value": "{spacing.base}*0.75",
+      "value": "{spacer.base}*0.75",
       "type": "spacing"
     },
     "90": {
-      "value": "{spacing.base}*0.875",
+      "value": "{spacer.base}*0.875",
       "type": "spacing"
     },
     "100": {
-      "value": "{spacing.base}*1",
+      "value": "{spacer.base}*1",
       "type": "spacing"
     },
     "125": {
-      "value": "{spacing.base}*1.25",
+      "value": "{spacer.base}*1.25",
       "type": "spacing"
     },
     "150": {
-      "value": "{spacing.base}*1.5",
+      "value": "{spacer.base}*1.5",
       "type": "spacing"
     },
     "175": {
-      "value": "{spacing.base}*1.75",
+      "value": "{spacer.base}*1.75",
       "type": "spacing"
     },
     "200": {
-      "value": "{spacing.base}*2",
+      "value": "{spacer.base}*2",
       "type": "spacing"
     },
     "250": {
-      "value": "{spacing.base}*2.5",
+      "value": "{spacer.base}*2.5",
       "type": "spacing"
     },
     "300": {
-      "value": "{spacing.base}*3",
+      "value": "{spacer.base}*3",
+      "type": "spacing"
+    },
+    "400": {
+      "value": "{spacer.base}*4",
+      "type": "spacing"
+    },
+    "500": {
+      "value": "{spacer.base}*5",
       "type": "spacing"
     },
     "base": {

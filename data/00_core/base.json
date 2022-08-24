@@ -24,7 +24,7 @@
             "type": "spacing"
           },
           "lg": {
-            "value": "{spacing.50}",
+            "value": "{spacer.50}",
             "type": "spacing"
           }
         },
@@ -34,13 +34,13 @@
             "type": "spacing"
           },
           "lg": {
-            "value": "{spacing.50}",
+            "value": "{spacer.50}",
             "type": "spacing"
           }
         }
       },
       "spacing": {
-        "value": "{spacing.50}",
+        "value": "{spacer.50}",
         "type": "spacing"
       },
       "border-radius": {
